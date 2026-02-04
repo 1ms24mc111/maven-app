@@ -3,7 +3,7 @@ pipeline
 	agent any
 	environment
 	{
-		DOCKER_CRED=credentials('dockerhubID')
+		DOCKER_CRED=credentials('dockerhub')
 		IMG_NAME=('vivek5041/maven-app')
 	}
 	stages
